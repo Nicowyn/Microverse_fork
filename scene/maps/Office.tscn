@@ -1,4 +1,4 @@
-[gd_scene load_steps=72 format=4 uid="uid://nhba2jdtsjsx"]
+[gd_scene load_steps=75 format=4 uid="uid://nhba2jdtsjsx"]
 
 [ext_resource type="Texture2D" uid="uid://bg7vxkearntad" path="res://asset/maps/interiors/3_Bathroom_32x32.png" id="1_xsptx"]
 [ext_resource type="Texture2D" uid="uid://u2qghko6a2k2" path="res://asset/maps/interiors/Room_Builder_32x32.png" id="2_0ao8h"]
@@ -22,17 +22,20 @@
 [ext_resource type="PackedScene" uid="uid://b6cvfnhl4xvjo" path="res://scene/prefab/FrontChair.tscn" id="17_xf40e"]
 [ext_resource type="PackedScene" uid="uid://ci2i5dc7loyjt" path="res://scene/prefab/Chair.tscn" id="18_r1j2e"]
 [ext_resource type="PackedScene" uid="uid://c2yyfakwg86js" path="res://scene/ui/GlobalSettingsUI.tscn" id="26_ik20s"]
-[ext_resource type="PackedScene" uid="uid://duqkkiin6jsee" path="res://scene/characters/Jack.tscn" id="26_loaku"]
+[ext_resource type="PackedScene" uid="uid://duqkkiin6jsee" path="res://scene/characters/Ethan.tscn" id="26_loaku"]
 [ext_resource type="PackedScene" uid="uid://bqhqxqhqhqhqh" path="res://scene/ui/GodUI.tscn" id="27_ik20s"]
-[ext_resource type="PackedScene" uid="uid://o15xfx2su45c" path="res://scene/characters/Alice.tscn" id="28_nrx5g"]
-[ext_resource type="PackedScene" uid="uid://c2slyrs5wkufs" path="res://scene/characters/Grace.tscn" id="29_1e7uo"]
-[ext_resource type="PackedScene" uid="uid://ck7w2wpn6fvo6" path="res://scene/characters/Joe.tscn" id="29_285b5"]
-[ext_resource type="PackedScene" uid="uid://db3hucbh7cc2s" path="res://scene/characters/Lea.tscn" id="29_t3fek"]
-[ext_resource type="PackedScene" uid="uid://hdja5ovupu8s" path="res://scene/characters/Monica.tscn" id="30_t3fek"]
+[ext_resource type="PackedScene" uid="uid://o15xfx2su45c" path="res://scene/characters/Julian.tscn" id="28_nrx5g"]
+[ext_resource type="PackedScene" uid="uid://c2slyrs5wkufs" path="res://scene/characters/Nolan.tscn" id="29_1e7uo"]
+[ext_resource type="PackedScene" uid="uid://ck7w2wpn6fvo6" path="res://scene/characters/Caleb.tscn" id="29_285b5"]
+[ext_resource type="PackedScene" uid="uid://db3hucbh7cc2s" path="res://scene/characters/Owen.tscn" id="29_t3fek"]
+[ext_resource type="PackedScene" uid="uid://hdja5ovupu8s" path="res://scene/characters/Damien.tscn" id="30_t3fek"]
 [ext_resource type="Script" uid="uid://bipg4phjpbujy" path="res://script/RoomArea.gd" id="30_yhhlg"]
 [ext_resource type="Script" uid="uid://dwbuqa6u6pc8y" path="res://script/RoomManager.gd" id="31_8h615"]
-[ext_resource type="PackedScene" uid="uid://b37ihqa7p6w5t" path="res://scene/characters/Stephen.tscn" id="31_8035k"]
-[ext_resource type="PackedScene" uid="uid://cyhpykj1xrn1n" path="res://scene/characters/Tom.tscn" id="32_vckrt"]
+[ext_resource type="PackedScene" uid="uid://b37ihqa7p6w5t" path="res://scene/characters/Adrian.tscn" id="31_8035k"]
+[ext_resource type="PackedScene" uid="uid://cyhpykj1xrn1n" path="res://scene/characters/Marcus.tscn" id="32_vckrt"]
+[ext_resource type="PackedScene" uid="uid://2860fde9d003" path="res://scene/characters/Victor.tscn" id="33_vict0"]
+[ext_resource type="PackedScene" uid="uid://9aed00738302" path="res://scene/characters/Isaac.tscn" id="34_isaac"]
+[ext_resource type="PackedScene" uid="uid://8528a16c0917" path="res://scene/characters/Leo.tscn" id="35_leo00"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_3he53"]
 
@@ -16934,29 +16937,38 @@ position = Vector2(896, 464)
 [node name="Characters" type="Node2D" parent="."]
 script = ExtResource("15_y022p")
 
-[node name="Joe" parent="Characters" groups=["characters"] instance=ExtResource("29_285b5")]
+[node name="Caleb" parent="Characters" groups=["characters"] instance=ExtResource("29_285b5")]
 position = Vector2(848, 360)
 
-[node name="Jack" parent="Characters" groups=["characters"] instance=ExtResource("26_loaku")]
+[node name="Ethan" parent="Characters" groups=["characters"] instance=ExtResource("26_loaku")]
 position = Vector2(752, 360)
 
-[node name="Alice" parent="Characters" instance=ExtResource("28_nrx5g")]
+[node name="Julian" parent="Characters" instance=ExtResource("28_nrx5g")]
 position = Vector2(976, 360)
 
-[node name="Grace" parent="Characters" instance=ExtResource("29_1e7uo")]
+[node name="Nolan" parent="Characters" instance=ExtResource("29_1e7uo")]
 position = Vector2(256, 208)
 
-[node name="Monica" parent="Characters" instance=ExtResource("30_t3fek")]
+[node name="Damien" parent="Characters" instance=ExtResource("30_t3fek")]
 position = Vector2(280, 136)
 
-[node name="Stephen" parent="Characters" instance=ExtResource("31_8035k")]
+[node name="Adrian" parent="Characters" instance=ExtResource("31_8035k")]
 position = Vector2(952, 528)
 
-[node name="Tom" parent="Characters" instance=ExtResource("32_vckrt")]
+[node name="Marcus" parent="Characters" instance=ExtResource("32_vckrt")]
 position = Vector2(1032, 512)
 
-[node name="Lea" parent="Characters" instance=ExtResource("29_t3fek")]
+[node name="Owen" parent="Characters" instance=ExtResource("29_t3fek")]
 position = Vector2(120, 512)
+
+[node name="Victor" parent="Characters" instance=ExtResource("33_vict0")]
+position = Vector2(680, 360)
+
+[node name="Isaac" parent="Characters" instance=ExtResource("34_isaac")]
+position = Vector2(1104, 360)
+
+[node name="Leo" parent="Characters" instance=ExtResource("35_leo00")]
+position = Vector2(512, 208)
 
 [node name="SettingsLayer" parent="." instance=ExtResource("26_ik20s")]
 

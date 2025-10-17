@@ -140,16 +140,19 @@ A god-simulation sandbox game built on Godot 4 as a multi-agent AI social simula
 
 ## 🎭 AI Characters
 
-The game features 8 unique AI characters, each with distinct personalities:
+Nebesta's office currently hosts 11 AI teammates, all with distinct roles:
 
-- **Alice**: Creative and artistic, loves discussing art and literature
-- **Grace**: Analytical and logical, excels at problem-solving
-- **Jack**: Outgoing and social, enjoys meeting new people
-- **Joe**: Technical and detail-oriented, passionate about technology
-- **Lea**: Empathetic and caring, great at providing emotional support
-- **Monica**: Organized and efficient, excellent at project management
-- **Stephen**: Intellectual and philosophical, enjoys deep conversations
-- **Tom**: Humorous and relaxed, brings joy to social interactions
+- **Adrian**: Founder and CEO providing strategic direction
+- **Marcus**: Chief operating officer keeping execution on track
+- **Victor**: Chief technology officer guiding platform architecture
+- **Ethan**: Engineering lead coordinating day-to-day delivery
+- **Julian**: Product design lead shaping the user experience
+- **Nolan**: Data insights lead monitoring the company metrics
+- **Caleb**: Quality assurance lead safeguarding each release
+- **Damien**: Product strategist mapping the roadmap
+- **Owen**: People development lead supporting team growth
+- **Isaac**: Chief financial officer managing budgets
+- **Leo**: Workplace experience lead caring for the office
 
 ## 🔧 Advanced Features
 

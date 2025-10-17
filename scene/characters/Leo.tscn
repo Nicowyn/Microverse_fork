@@ -1,4 +1,4 @@
-[gd_scene load_steps=84 format=3 uid="uid://duqkkiin6jsee"]
+[gd_scene load_steps=84 format=3 uid="uid://8528a16c0917"]
 
 [ext_resource type="Script" uid="uid://bh7pwihb61whq" path="res://script/CharacterController.gd" id="1_0ligh"]
 [ext_resource type="Texture2D" uid="uid://0h71hb6eowe" path="res://asset/characters/body/Jackx32.png" id="2_bpkcn"]
@@ -716,7 +716,7 @@ animations = [{
 radius = 8.0
 height = 32.0
 
-[node name="Jack" type="CharacterBody2D"]
+[node name="Leo" type="CharacterBody2D"]
 motion_mode = 1
 wall_min_slide_angle = 0.0
 script = ExtResource("1_0ligh")

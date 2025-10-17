@@ -786,7 +786,7 @@ animations = [{
 radius = 8.0
 height = 32.0
 
-[node name="Joe" type="CharacterBody2D"]
+[node name="Caleb" type="CharacterBody2D"]
 motion_mode = 1
 wall_min_slide_angle = 0.0
 script = ExtResource("1_0v1r8")
