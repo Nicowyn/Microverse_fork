@@ -720,7 +720,7 @@ animations = [{
 radius = 8.0
 height = 32.0
 
-[node name="Lea" type="CharacterBody2D"]
+[node name="Owen" type="CharacterBody2D"]
 motion_mode = 1
 wall_min_slide_angle = 0.0
 script = ExtResource("1_ssp2r")
